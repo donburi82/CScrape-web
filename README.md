@@ -7,7 +7,7 @@ The app provides date and url of the most recent article published on specific w
 
 ### Using CScrape
 
-* The [web app]() is published via Github Pages
+* The [web app](https://donburi82.github.io/CScrape-web) is published via Github Pages
 
 ## Authors
 

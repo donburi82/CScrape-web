@@ -61,11 +61,11 @@ export default function CScrape() {
                             responseText,
                             "text/html"
                         );
-                        console.log(responseDoc);
+                        // console.log(responseDoc);
                         const responseElement =
                             responseDoc.getElementsByTagName("ul")[1]
                                 .children[1];
-                        console.log(responseElement);
+                        // console.log(responseElement);
                         const str = responseElement.textContent;
                         //DOM read
                         var urlCommerce =
