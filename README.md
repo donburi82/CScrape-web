@@ -3,12 +3,6 @@
 A Web Version of [CScrape](https://github.com/donburi82/CScrape)
 The app provides date and url of the most recent article published on specific websites
 
-## Getting Started
-
-### Using CScrape
-
-* The [web app](https://donburi82.github.io/CScrape-web) is published via Github Pages
-
 ## Authors
 
 donburi82
