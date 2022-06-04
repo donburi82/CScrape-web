@@ -52,7 +52,7 @@ export default function CScrape() {
                         changeForeign([urlForeign, dateForeign]);
                     });
 
-                //상무부 proxy
+                //상무부
                 fetch("/slfw/?q=proxy")
                     .then((response) => response.text())
                     .then((responseText) => {
@@ -61,7 +61,7 @@ export default function CScrape() {
                             responseText,
                             "text/html"
                         );
-                        // console.log(responseDoc);
+                        console.log(responseDoc);
                         const responseElement =
                             responseDoc.getElementsByTagName("ul")[1]
                                 .children[1];
@@ -78,32 +78,6 @@ export default function CScrape() {
                         //change state
                         changeCommerce([urlCommerce, dateCommerce]);
                     });
-                // //상무부 chrome extension
-                // fetch("http://www.mofcom.gov.cn/article/ae/slfw/")
-                //     .then((response) => response.text())
-                //     .then((responseText) => {
-                //         //DOM scrape
-                //         const responseDoc = new DOMParser().parseFromString(
-                //             responseText,
-                //             "text/html"
-                //         );
-                //         console.log(responseDoc);
-                //         const responseElement =
-                //             responseDoc.getElementsByTagName("ul")[1]
-                //                 .children[1];
-                //         console.log(responseElement);
-                //         const str = responseElement.textContent;
-                //         //DOM read
-                //         var urlCommerce =
-                //             "http://www.mofcom.gov.cn" +
-                //             responseElement.innerHTML.split('"')[5];
-                //         var dateCommerce = str.substring(
-                //             str.indexOf("（") + 1,
-                //             str.indexOf("）")
-                //         );
-                //         //change state
-                //         changeCommerce([urlCommerce, dateCommerce]);
-                //     });
             } catch (error) {
                 console.error(error);
             }

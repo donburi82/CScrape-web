@@ -1,6 +1,6 @@
 # CScrape (Web Version.)
 
-A Web Version of [CScrape](https://github.com/donburi82/CScrape)
+A [Web Version](https://cscrape-web.herokuapp.com/) of [CScrape](https://github.com/donburi82/CScrape)
 The app provides date and url of the most recent article published on specific websites
 
 ## Authors

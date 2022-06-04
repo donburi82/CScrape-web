@@ -1,6 +1,5 @@
 {
     "name": "cscrape",
-    "homepage": "https://donburi82.github.io/CScrape-web/",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
